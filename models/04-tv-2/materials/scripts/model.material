@@ -1,0 +1,18 @@
+material Targets/04-tv-2
+        {
+          technique
+          {
+            pass
+            {
+              ambient 1 1 1 1.000000
+              diffuse 1 1 1 1.000000
+              specular 0.03 0.03 0.03 1.000000 
+ 
+              texture_unit
+              {
+                texture 04-tv-2.png
+              }
+            }
+          }
+        }
+
